@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<img width="1763" height="906" alt="Screenshot 2026-02-21 154546" src="https://github.com/user-attachments/assets/84a83793-c5aa-4928-862c-0319afae0a5d" /><p align="center">
+  <img src="./img.png" alt="Project Banner" width="100%">
+</p>
 
-## Getting Started
+# red flag radar 🎯
 
-First, run the development server:
+## Basic Details
 
+### Team Name: DOS
+
+### Team Members
+- Member 1: Talarin Miranda- SNMIMT Maliankara
+- Member 2: Kavya R Krishna - SNMIMT Maliankara
+
+### Hosted Project Link
+[mention your project hosted link here]
+
+### Project Description
+Red flag radar is a web-based reflection tool that analyzes communication text and behavioral inputs to surface relationship interaction patterns. It helps users understand consistency and communication dynamics through structured, non-judgmental insights.
+
+### The Problem statement
+People often interpret relationship communication based on isolated messages or emotions, making it difficult to recognize broader interaction patterns and behavioral consistency. There is a lack of accessible tools that help individuals reflect on communication dynamics using multiple signals in a structured way.
+
+### The Solution
+SignalCheck provides a multi-signal reflection platform that combines message analysis with behavioral self-assessment to generate pattern-based insights. By synthesizing communication signals and behavioral indicators, the system encourages thoughtful reflection rather than single-message interpretation.
+
+---
+
+## Technical Details
+
+### Technologies/Components Used
+
+**For Software:**
+- Languages used: typeScript, JavaScript, HTML, CSS
+- Frameworks used: Next.js, React
+- Libraries used: Tailwind CSS
+- Tools used: Visual Studio Code, Git, GitHub, Node.js, npm, Chrome Developer Tools
+
+**For Hardware:**
+- Main components: Not applicable — this is a fully web-based software project
+- Specifications: Runs in any modern web browser with Node.js for development
+- Tools required: Laptop/desktop computer, internet connection, code editor
+
+---
+
+## Features
+
+List the key features of your project:
+- Users can paste conversation text to detect linguistic patterns such as deflection, invalidation, and guilt framing using rule-based analysis.
+- Behavioral Reflection Quiz: A structured Likert-scale questionnaire captures observations across integrity, empathy, stability, and respect dimensions.
+-Multi-Signal Pattern Insight: Combines communication signals and behavioral inputs to provide structured relationship pattern feedback rather than isolated interpretation.
+-Privacy-First Client-Side Processing: All analysis occurs locally in the browser without accounts or server storage, ensuring user priva
+
+---
+
+## Implementation
+
+### For Software:
+
+#### Installation
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <your-repo-link>
+cd signal-check
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Run
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### For Hardware:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### Components Required
+Not applicable — no hardware components are required.
 
-## Learn More
+#### Circuit Setup
+Not applicable — this project does not involve hardware circuitry.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### For Software:
 
-## Deploy on Vercel
+#### Screenshots (Add at least 3)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<img width="1763" height="906" alt="Screenshot 2026-02-21 154546" src="https://github.com/user-attachments/assets/07639f5d-07bc-4db5-b370-497b5646f6cf" />
+LANDING PAGE
+
+<img width="1581" height="846" alt="Screenshot 2026-02-21 154650" src="https://github.com/user-attachments/assets/59e5c1ad-2580-4478-a8ad-cf38a207a463" />
+TEXT ANALYSIS PAGE
+
+<img width="1476" height="871" alt="Screenshot 2026-02-21 154734" src="https://github.com/user-attachments/assets/09b70725-36de-4dd0-9e77-ec8f8d137a78" />
+QUIZ PAGE
+
+<img width="1474" height="839" alt="Screenshot 2026-02-21 154809" src="https://github.com/user-attachments/assets/77585c10-a3c3-4359-b4cf-e6a7a1bc8b1f" />
+RESULT PAGE
+#### Diagrams
+
+**System Architecture:**
+
+![Architecture Diagram](docs/architecture.png)
+Red Flag Radar operates as a client-side Next.js application where user inputs from the text analyzer and behavioral quiz are processed locally using rule-based logic to generate pattern insights without server-side storage.
+
+**Application Workflow:**
+
+![Workflow](docs/workflow.png)
+Users start from the landing page, submit communication text for analysis, complete the behavioral quiz, and receive synthesized pattern insights generated from combined signals.
+
+---
+
+### For Hardware:
+
+#### Schematic & Circuit
+
+Not applicable — this project is a software-only web application and does not include hardware circuitry.
+
+#### Build Photos
+
+![Team](Add photo of your team here)
+
+![Components](Add photo of your components here)
+*List out all components shown*
+
+![Build](Add photos of build process here)
+*Explain the build steps*
+
+![Final](Add photo of final product here)
+*Explain the final build*
+
+---
+Made With ❤️ at Tinkerhub
