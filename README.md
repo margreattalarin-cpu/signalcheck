@@ -1,6 +1,4 @@
-<img width="1763" height="906" alt="Screenshot 2026-02-21 154546" src="https://github.com/user-attachments/assets/84a83793-c5aa-4928-862c-0319afae0a5d" /><p align="center">
-  <img src="./img.png" alt="Project Banner" width="100%">
-</p>
+
 
 # red flag radar 🎯
 
