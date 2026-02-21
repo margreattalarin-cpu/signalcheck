@@ -13,7 +13,7 @@
 - Member 2: Kavya R Krishna - SNMIMT Maliankara
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://signalcheck-rouge.vercel.app/
 
 ### Project Description
 Red flag radar is a web-based reflection tool that analyzes communication text and behavioral inputs to surface relationship interaction patterns. It helps users understand consistency and communication dynamics through structured, non-judgmental insights.
