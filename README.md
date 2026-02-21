@@ -2,28 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# red_flag_radar 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: DOS
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Talarin Miranda - SNM INSTITUTE OF MANAGEMENT AND TECHNOLOGY,MALIANKARA
+- Member 2: Kavya R Krishna - SNM INSTITUTE OF MANAGEMENT AND TECHNOLOGY,MALIANKARA
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+Red_Flag_Radar is a multi-signal relationship insight tool that combines message analysis and structured behavioral inputs to help users recognize communication patterns, consistency gaps, and interaction dynamics without making accusations or diagnoses.
 
-### The Problem statement
-[What problem are you solving?]
+### The Problem statemt
+Understanding relationship communication is challenging because people rely on single messages or moments rather than patterns. Existing tools rarely combine communication analysis with behavioral reflection, leaving users without structured insights into interaction consistency.
 
 ### The Solution
-[How are you solving it?]
-
+SignalCheck addresses this gap by providing a multi-signal reflection platform that combines communication text analysis with structured behavioral inputs to surface interaction patterns, consistency gaps, and relationship dynamics in a calm, non-judgmental manner.
 ---
 
 ## Technical Details
@@ -31,26 +30,26 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
+- Languages used: TypeScript,JavaScript,HTML,CSS
+- Frameworks used: Next.js (App Router architecture),React
+- Libraries used: Tailwind CSS (UI styling)
+- Tools used: Visual Studio Code,git & GitHub,Node.js & npm,Chrome Developer Tools
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: Standard laptop/desktop computer
+- Specifications: Node.js runtime environment,Modern web browser
+- Tools required:Internet connection,Code editor (VS Code recommended)
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Text Communication Analysis: Users can paste conversation text to detect linguistic signals such as deflection, invalidation, guilt framing, and responsibility avoidance using rule-based pattern matching. 
+-Behavioral Reflection Quiz: A structured questionnaire captures user-reported observations across dimensions like accountability, empathy, stability, and boundary respect.
+-Multi-Signal Pattern Synthesis: The system combines communication signals and behavioral inputs to generate pattern-based insights rather than isolated interpretations.
+-Instant Client-Side Insights: All analysis runs locally in the browser without login or data storage, ensuring privacy and immediate feedback.
 
+Implementation
 ---
 
 ## Implementation
@@ -59,22 +58,22 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+git clone <your-repo-link>
+cd signal-check
+npm install
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+npm run dev
 ```
 
 ### For Hardware:
 
 #### Components Required
-[List all components needed with specifications]
-
+Not applicable — this project is a fully client-side web application and does not require dedicated hardware components.
 #### Circuit Setup
-[Explain how to set up the circuit]
-
+Not applicable — no hardware circuitry is involved in this project.
 ---
 
 ## Project Documentation
